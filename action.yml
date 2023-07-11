@@ -1,4 +1,4 @@
-name: 'Argo application sync using argocd cli '
+name: 'argocd-app-sync '
 description: 'Syncs the 'ARGO Application'
 inputs:
   argo-token:
