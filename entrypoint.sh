@@ -25,4 +25,4 @@ if [ -z "$ARGOCD_SUB_COMMAND" ]; then
   exit 1
 fi
 
-argocd --server "${ARGO_URL}" --auth-token "${ARGO_TOKEN}" "${ARGOCD_COMMAND}" "${ARGOCD_SUB_COMMAND}" "${ARGO_APPLICATION}"
+argocd --server "${ARGO_URL}" --auth-token "${ARGO_TOKEN}" "${ARGOCD_COMMAND}" "${ARGOCD_SUB_COMMAND}" "${ARGO_APPLICATION}" --plaintext
