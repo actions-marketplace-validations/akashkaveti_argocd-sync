@@ -1,5 +1,8 @@
-name: 'ArgoCD CLI Action'
+name: 'ArgoCD CLI Sync Action'
 description: 'Syncs the 'ARGO Application'
+branding:
+  color: 'green'
+  icon: 'upload-cloud'
 inputs:
   argo-token:
     description: 'API Token with Sync' permission to ArgoCD'
